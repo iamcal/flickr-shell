@@ -1,2 +1,3 @@
 cache/*.jpg
 events.txt
+tests/out.png
