@@ -22,7 +22,7 @@ sub look {
 
 
 sub show_photo {
-	Flickr::Photo->new($_[0]->{world})->show_photo({'filename' => 'map.png'});
+	Flickr::Photo->new($_[0]->{world})->show_photo({'filename' => 'images/map.png'});
 }
 
 sub verbs {

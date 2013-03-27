@@ -17,7 +17,7 @@ my $image = Image::Magick->new;
 #my $x = $image->Read('test_images/sunset.jpg');
 #my $x = $image->Read('test_images/leen.jpg');
 #my $x = $image->Read('test_images/flickr_logo_beta_big.gif');
-my $x = $image->Read('map.png');
+my $x = $image->Read('images/map.png');
 
 warn "$x" if "$x";
 
