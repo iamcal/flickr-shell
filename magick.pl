@@ -14,9 +14,9 @@ use Data::Dumper;
 
 my $image = Image::Magick->new;
 
-#my $x = $image->Read('sunset.jpg');
-#my $x = $image->Read('leen.jpg');
-#my $x = $image->Read('flickr_logo_beta_big.gif');
+#my $x = $image->Read('test_images/sunset.jpg');
+#my $x = $image->Read('test_images/leen.jpg');
+#my $x = $image->Read('test_images/flickr_logo_beta_big.gif');
 my $x = $image->Read('map.png');
 
 warn "$x" if "$x";
@@ -37,6 +37,6 @@ $caa->draw_bitmap(0, 0, $sw-2, $sh-5, $image);
 
 
 
-$x = $image->Write('leen.png');
+$x = $image->Write('out.png');
 warn "$x" if "$x";
 
