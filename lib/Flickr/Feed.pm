@@ -43,7 +43,7 @@ sub cache_photo {
 	my ($self, $attr) = @_;
 
 	$attr->{url} = "http://static.flickr.com/$attr->{server}/$attr->{id}_$attr->{secret}.jpg";
-	$attr->{filename} = "images/$attr->{id}_$attr->{secret}.jpg";
+	$attr->{filename} = "cache/$attr->{id}_$attr->{secret}.jpg";
 
 	unless (-e $attr->{filename}){
 
