@@ -15,7 +15,7 @@ sub look {
 	my ($self) = @_;
 
 	my $desc = "You are standing in a map room - there is a large map on the wall.\n";
-	$desc .= "You can see the lobby through a door to the east.";
+	$desc .= "You can see the lobby through a door to the west.";
 
 	return $desc;
 }
