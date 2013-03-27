@@ -60,3 +60,9 @@ http://serverfault.com/questions/170395/adding-png-jpg-support-to-imagemagick-in
 After doing that, you'll need to rebuild the perl bindings:
 
     perl -MCPAN -e'install Image::Magick'
+
+You may also be missing Term::ReadyKey, which you can try and install:
+
+    perl -MCPAN -e'install Term::ReadKey"
+
+This might also fail. It's like installing things in the 90s.
